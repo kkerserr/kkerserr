@@ -19,8 +19,8 @@ local ESP = {
     Color = Color3.fromRGB(255, 255, 255),
     TargetPlayers = true,
     FaceCamera = true, -- i changed last time
-    Thickness = 3,
-    AttachShift = 1,
+    Thickness = 2.5,
+    AttachShift = 0,
     Objects = setmetatable({}, {__mode="kv"}),
     Overrides = {}
 }
